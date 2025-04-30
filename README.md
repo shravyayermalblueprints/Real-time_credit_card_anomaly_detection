@@ -1,6 +1,6 @@
-# Real-time_credit_card_anomaly_detection
+# Real-time-credit-card-anomaly-detection
 
-Let's assume I have a bank card. My previous purchasing patterns will be discovered. Such as how much money I spend, where I shop, how often I spend, what I buy, etc. Based on this knowledge, My current credit transaction will be suspected of deception if it differs from my previous purchasing patterns; otherwise, it will be considered legitimate. Additionally, the interface will notify me to any fraudulent transactions.
+Let's assume I have a bank card. My previous purchasing patterns will be discovered. Such as how much money I spend, where I shop, how often I spend, what I buy, etc. Based on this knowledge, my current credit transaction will be suspected of deception if it differs from my previous purchasing patterns; otherwise, it will be considered legitimate. Additionally, the interface will notify me of any fraudulent transactions.
 
 Such forecasts will be based on millions of transactions. Therefore, distributed systems are employed, which can grow as the number of deals rises.
 
@@ -9,8 +9,8 @@ Technology used:
 1. Spark:
 
 Distributed Processing Framework.
-Single platform for differnet kinds of data processing : In-memory Data Processing.
-Rdd,Data frame and Data set are used to represent data in Spark.
+Single platform for different kinds of data processing: In-memory Data Processing.
+RDD, Data frame, and Data set are used to represent data in Spark.
 
 
 Apache Spark: 
@@ -27,23 +27,23 @@ Messages are stored on the disk for durability.
 
 
 Apache Kafka:
-Application will sent MESSAGES to Kafka cluster.
-Some other application which will consume data from Kafka cluster.
+The application will send MESSAGES to the Kafka cluster.
+Some other application that will consume data from the Kafka cluster.
 
 
 3. Cassandra:
 
-Distributed Nosql Columnar Database.
-Storage layer in data intensive project.
+Distributed NoSQL Columnar Database.
+Storage layer in data data-intensive project.
 
 Apache Cassandra:
-It follows a ring architecture and column oriented database.
+It follows a ring architecture and column-oriented database.
 No single point of failure.
 Writes are pretty fast.
-Cassandra is linearly scalable and flexible data storage.
+Cassandra is a linearly scalable and flexible data storage.
 
 Limitations:
-Cassandra have built in aggregations and join.
+Cassandra has built-in aggregations and joins.
 
 
 
